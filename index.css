@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 1px solid blue; */
+
+}
+.sec1{
+    display:flex ;
+    flex-direction: row;
+}
+.one{
+    width: 50%;
+}
+.two{
+    display:flex;
+    flex-direction: column;
+    /* width: 50%; */
+   
+}
+.two #myform{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.two h1{
+    font-size: 30px;
+    text-align: center;
+    color: greenyellow;
+    text-decoration: underline 4px solid teal;
+}
+#myform label{
+    color:blue;
+    
+}
+input[type="text"],[type="email"],[type="password"]{
+    border:none;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px goldenrod;
+    padding: 1%;
+    margin-bottom: 1%;
+    width: 90%;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+}
+input[type="checkbox"]{
+    accent-color: green; 
+    margin-right: 2% ;
+}
+
+.btn{
+    width: 90%;
+    border-radius: 10%;
+    font-size: 20px;
+    color: white;
+    background-color: blueviolet;
+    border: 1.5px solid #174dac;
+    margin-bottom: 2%;
+
+}
+.btn:hover{
+    color: white;
+    background-color: blueviolet;
+    border: 1.5px solid gray;
+   
+}
+h5{
+    text-align: center;
+    font-size: 18px;
+}
+h5 .a{
+    text-decoration: none;
+}
